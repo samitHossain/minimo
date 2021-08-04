@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:PlayfairDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    background:#fff;
+}
+
+@font-face {
+    font-family:PlayfairDisplay-Regular;
+    src: url(../fonts/playfair/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+    font-family:PlayfairDisplay-Italic;
+    src: url(../fonts/playfair/PlayfairDisplay-Italic.otf);
+}
+@font-face {
+    font-family:PlayfairDisplay-Black;
+    src: url(../fonts/playfair/PlayfairDisplay-Black.otf);
+}
+@font-face {
+    font-family:PlayfairDisplay-Bold;
+    src: url(../fonts/playfair/PlayfairDisplay-Bold.otf);
+}
+@font-face {
+    font-family:Ubuntu-L;
+    src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+@font-face {
+    font-family:Inconsolata;
+    src: url(../fonts/Inconsolata/Inconsolata.otf);
+}
+/* header start */
+header{
+    padding: 25px 0;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo a img {
+    width: 100%;
+}
+.m_menu{
+    width: 90%;
+    float: right;
+}
+.m_menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.m_menu ul li a{
+    margin: 0 70px;
+    color: #626262;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.m_menu ul li:last-child a{
+    margin-right: 0;
+}
+.m_menu ul li a:hover{
+  color: #333333;
+}
+
+/* header end */
+/* banner start */
+.banner{
+    padding: 30pt 0;
+}
+.container_b{
+    margin: 0 auto;
+    width: 90%;
+}
+.container_img img{
+    width: 100%;
+}
+/* banner end */
+/* about start */
+.about{margin: 40pt 0 70pt;}
+.content_container{
+    margin: 0 auto;
+    width: 85%;
+}
+.a_content h3 {
+    font-family: Ubuntu-L;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.a_content h2 {
+    font-weight: 400;
+    font-size: 30pt;
+}
+.a_content p{
+    margin: 0pt 0 50pt;
+    word-spacing: 2pt;
+    line-height: 30pt;
+}
+/* about end */
+/* testimonial start */
+.content_container {
+    overflow: hidden;
+}
+.cc_item_img img{
+    width: 100%;
+}
+.cc_item_left{
+    width: 46%;
+    float: left;
+    margin: 40pt 0;
+}
+.cc_item_right {
+    width: 46%;
+    float: right;
+    margin: 40pt 0;
+}
+/* testimonial end */
+/* newsletter start */
+.newsletter{
+    background: #f0f0f0;
+    padding: 80pt 0;
+}
+.container_n{
+    margin: 0 auto;
+    width: 75%;
+}
+.mewsletter_item h2{
+    font-size: 35pt;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+.mewsletter_item form{
+    margin: 80px auto 0;
+    text-align: center;
+    width: 35%;
+    border-bottom: 1px solid #333333;
+}
+.mewsletter_item input{
+    padding-bottom: 5pt;
+    font-family: auto;
+    font-size: 20pt;
+    font-weight: 400;
+    color: #333333;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding-right: 140px;
+}
+.mewsletter_item button{
+    border: none;
+}
+.mewsletter_item button a{
+    font-size: 18pt;
+    color: #333333;
+}
+/* newsletter end */
+/* more start */
+.more{
+    padding: 20pt 0px 80pt;
+}
+.m_btn{
+    text-align: center;
+}
+.m_btn button{
+    border: none;
+    background: transparent;
+}
+.m_btn a{
+    font-family: auto;
+    font-size: 25pt;
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15pt 25pt;
+    border: 1px solid;
+    transition: .4s;
+}
+.m_btn a:hover{
+    background-color: #333333;
+    color: #fff;
+}
+/* more end */
+/* footer start */
+footer{
+    padding: 25pt 0;
+    background: #f0f0f0;
+}
+.f_left {
+    width: 50%;
+    float: left;
+}
+.f_left ul{
+    display: flex;
+    list-style: none;
+}
+.f_left ul li {
+    margin-right: 25pt;
+}
+.f_left ul li a{
+    color: #333333;
+    text-decoration: none;
+}
+.f_right{
+    width: 50%;
+    float: right;
+}
+.f_right ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.f_right ul li{
+   font-size: 15pt;  
+    color: #333333;
+}
+.f_right ul li a{
+    font-size: 15pt;
+    color: #626262;
+    margin-left: 15pt;
+}
+/* footer end */
